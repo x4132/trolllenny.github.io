@@ -1,3 +1,3 @@
 # trolllenny.github.io
 
-stuff dude, go back
+everything i do, documented here :)
