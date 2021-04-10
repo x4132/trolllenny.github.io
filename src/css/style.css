@@ -1,10 +1,12 @@
-<head>
-    <style>
+
         body {
             background-color: #202225;
         }
 
         h1 {
+            color:mistyrose
+        }
+        h2 {
             color:mistyrose
         }
         p {
@@ -13,6 +15,3 @@
         a {
             color:rgb(226, 249, 235)
         }
-        
-    </style>
-    </head>
