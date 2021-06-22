@@ -8,11 +8,14 @@ h1 {
     color:mistyrose;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
     }
 h2 {
     color:mistyrose;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+
     }
 p {
     color:rgb(226, 249, 235);
@@ -28,3 +31,13 @@ div {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     }
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 20;
+    left: 0;
+    width: 100%;
+    margin: 10;
+}
