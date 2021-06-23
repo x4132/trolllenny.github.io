@@ -8,19 +8,20 @@ h1, h2, p, a, div {
     font-family: "Open Sans", sans-serif;
 }
 
+h1, h2, p, div {
+    text-align: center;
+}
+
 h1 {
     color: mistyrose;
-    text-align: center;
     font-size: 40px;
 }
 h2 {
     color: mistyrose;
-    text-align: center;
     font-size: 35px;
 }
 p {
     color: rgb(226, 249, 235);
-    text-align: center;
     font-size: 17px;
 }
 a {
@@ -33,7 +34,6 @@ a:hover {
 
 div {
     color: rgb(226, 249, 235);
-    text-align: center;
 }
 
 footer {
