@@ -1,44 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 body {
     background-color: #1f1e33;
     }
 
 h1 {
-    color:mistyrose;
+    color: mistyrose;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 40px;
     }
 h2 {
-    color:mistyrose;
+    color: mistyrose;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 35px;
 
     }
 p {
-    color:rgb(226, 249, 235);
+    color: rgb(226, 249, 235);
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 17px;
     }
 a {
-    color:rgb(226, 249, 235);
-    font-family: 'Open Sans', sans-serif;
-    }
+    color: rgb(226, 249, 235);
+    font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+    color: #ff6666;
+}
+
 div {
-    color:rgb(226, 249, 235);
+    color: rgb(226, 249, 235);
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    }
+    font-family: "Open Sans", sans-serif;
+}
 
 footer {
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 20;
+
+    bottom: 0;
     left: 0;
+
     width: 100%;
-    margin: 10;
+
+    padding-bottom: 20px;
+}
+
+footer > * {
+    margin-right: 10px;
+}
+
+footer:last-child {
+    margin-right: 0;
 }
