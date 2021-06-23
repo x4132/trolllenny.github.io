@@ -2,27 +2,26 @@
 
 body {
     background-color: #1f1e33;
-    }
+}
 
 h1 {
     color: mistyrose;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
-    }
+}
 h2 {
     color: mistyrose;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 35px;
-
-    }
+}
 p {
     color: rgb(226, 249, 235);
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
-    }
+}
 a {
     color: rgb(226, 249, 235);
     font-family: "Open Sans", sans-serif;
