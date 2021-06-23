@@ -27,8 +27,7 @@
         <a href="src/writeups.html">Writeups and CTFs
         </a>
     </p>
-</body>
-<footer>
+    <footer>
     <div>
         <a href="https://twitter.com/_trolllenny_">Twitter</a>
     </div>
@@ -36,9 +35,15 @@
         <a href="https://instagram.com/trolllenny">Instagram</a>
     </div>
     <div>
-        <a onclick="function (e){e.preventDefault(); location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'}"
-            href="https://tiktok.com/trolllenny">TikTok</a>
+        <a id="tiktok" href="https://tiktok.com/trolllenny">TikTok</a>
     </div>
 </footer>
+    <script>
+        document.querySelector("#tiktok").addEventListener("onClick", (evt)=>{
+            evt.preventDefault();
+            window.location.assign("https://example.com");
+        })
+    </script>
+</body>
 
 </html>
